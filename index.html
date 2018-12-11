@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<style>
+.divs {
+  display: table;
+}
+.jpg {
+  /* display: inline-block; */
+}
+.displacement {
+  list-style: none;
+}
+
+.bigImage {
+  max-width:100%;
+  max-height:100%;
+}
+
+.im1 {
+  max-width:100%;
+  max-height:100%;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.col {
+  float: left;
+  width: 20%;
+  padding: 30px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+<h1>Final Projects</h1>
+<h2>Louise Feng, cs194-26-afj</h2>
+
+<h1>Fake Miniatures</h1>
+
+<div>
+  <body>
+    In this project, we create a "miniture" effect on a photo by blurring out everything but one area of focus.
+    This effectively narrows the perceived depth of view in the scene so that it feels as if the lens were much 
+    closer to the object. After taking in an input image, as suggested I adjust color to make the end result more
+    noticeable, then apply a blur filter defined by what I want in focus (in each picture there is a rectangle of
+    focus that progressively gets more blurred as you get farther).
+  </body>
+</div>
+
+<h3> Pictures I Took </h3>
+
+<div class="row">
+  <div class="jpg col">
+    <img src='bison_edited.png' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='bison_mask.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='bison.png' class="bigImage">
+  </div>
+</div>
+
+<div class="row">
+  <div class="jpg col">
+    <img src='campus1_edited.png' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='campus1_mask.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='campus1.png' class="bigImage">
+  </div>
+</div>
+
+<div class="row">
+  <div class="jpg col">
+    <img src='chinatown_edited.png' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='chinatown_mask.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='chinatown.png' class="bigImage">
+  </div>
+</div>
+
+<div class="row">
+  <div class="jpg col">
+    <img src='garden_edited.png' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='garden_mask.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='garden.png' class="bigImage">
+  </div>
+</div>
+
+<div class="row">
+  <div class="jpg col">
+    <img src='canyon_edited.png' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='canyon_mask.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='canyon.png' class="bigImage">
+  </div>
+</div>
+
+<div class="row">
+  <div class="jpg col">
+    <img src='universal_edited.png' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='universal_mask.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='universal.png' class="bigImage">
+  </div>
+</div>
+
+<h3> Pictures From Internet </h3>
+
+<div class="row">
+  <div class="jpg col">
+    <img src='drivein_edited.png' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='drivein_mask.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='drivein.png' class="bigImage">
+  </div>
+</div>
+
+<div class="row">
+  <div class="jpg col">
+    <img src='waterfront_edited.png' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='waterfront_mask.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='waterfront.png' class="bigImage">
+  </div>
+</div>
+
+
+<h1>The vertigo Shot</h1>
+
+<div>
+  <body>
+    This project duplicates the dolly zoom. In this effect, we can see that the subject of the image 
+    stays the same size, but the angle and detail of the background changes. This is created by taking 
+    a series of photographs, each of which is taken at a different distance from the subject, moving 
+    in a straight line, while using zoom to adjust the field of view. The pictures were taken with a 
+    Canon EOS 50D.
+  </body>
+</div>
+
+
+<div>
+  <h2>Results</h2>
+  <br>
+  <h1>Vase</h1>
+  <body>
+    Here I took 6 pictures, progressively moving closer to the vase in each one.
+  </body>
+</div>
+
+
+<div class="row">
+  <div class="jpg col">
+    <img src='./dolly/1.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='./dolly/2.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='./dolly/3.jpg' class="bigImage">
+  </div>
+  <div class="jpg col">
+    <img src='./dolly/4.jpg' class="bigImage">
+  </div>
+    <div class="jpg col">
+    <img src='./dolly/5.jpg' class="bigImage">
+  </div>
+    <div class="jpg col">
+    <img src='./dolly/6.jpg' class="bigImage">
+  </div>
+</div>
+
+<div><h1> Bells and Whistles: GIF</h1></div>
+
+  <div>
+    <img src='./dolly/dolly.gif' class="bigImage">
+  </div>
+
+
+  <div>
+  <h1>Plushie</h1>
+  <body>
+    Here I took 8 pictures, progressively moving farther to the plushie in each one.
+  </body>
+</div>
+
+
+<div class="row">
+  <div class="jpg col">
+    <img src='./dolly/11.jpg' class="im1">
+  </div>
+  <div class="jpg col">
+    <img src='./dolly/12.jpg' class="im1">
+  </div>
+  <div class="jpg col">
+    <img src='./dolly/13.jpg' class="im1">
+  </div>
+  <div class="jpg col">
+    <img src='./dolly/14.jpg' class="im1">
+  </div>
+    <div class="jpg col">
+    <img src='./dolly/15.jpg' class="im1">
+  </div>
+    <div class="jpg col">
+    <img src='./dolly/16.jpg' class="im1">
+  </div>
+  <div class="jpg col">
+    <img src='./dolly/17.jpg' class="im1">
+  </div>
+  <div class="jpg col">
+    <img src='./dolly/18.jpg' class="im1">
+  </div>
+</div>
+
+<div><h1> Bells and Whistles: GIF</h1></div>
+
+  <div>
+    <img src='./dolly/dolly2.gif' class="bigImage">
+  </div>
+
+
+</html>
